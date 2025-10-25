@@ -11,3 +11,8 @@ body {
 li {
 	margin-bottom: 1em;
 }
+
+.menu a:visited {
+	color : blue;
+}
+
