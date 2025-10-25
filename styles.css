@@ -12,7 +12,27 @@ li {
 	margin-bottom: 1em;
 }
 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #666;
+    margin: 2em 0;
+    padding: 0;
+}
+
 .menu a:visited {
 	color : blue;
 }
 
+/* 
+a[href^="http"]::after {
+  content: "";
+  display: inline-block;
+  width: 0.8em;
+  height: 0.8em;
+  margin-left: 0.25em;
+
+  background-size: 100%;
+  background-image: url("files/icons8-external-link-26.png");
+} */
